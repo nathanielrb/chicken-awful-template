@@ -12,5 +12,3 @@ RUN wget https://code.call-cc.org/releases/4.9.0/chicken-4.9.0.1.tar.gz && \
    cd ../ && \
    rm -r chicken-4.9.0.1  chicken-4.9.0.1.tar.gz
 
-RUN chicken-install awful
-
