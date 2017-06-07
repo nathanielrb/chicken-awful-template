@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER "nathaniel.rudavsky@gmail.com"
 
 RUN  apt-get update \
-  && apt-get install -y wget sudo make gcc \
+  && apt-get install -y wget sudo make gcc git \
   && rm -rf /var/lib/apt/lists/*
 
 RUN wget https://code.call-cc.org/releases/4.9.0/chicken-4.9.0.1.tar.gz && \
